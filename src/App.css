@@ -1,0 +1,52 @@
+body {
+  background-color: aqua;
+  /* Set your desired background color */
+  margin: 0;
+  /* Remove default margin */
+  padding: 0;
+  /* Remove default padding */
+}
+
+.header {
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: underline;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateX(-50%);
+  background-color: aqua;
+  padding: 10px 20px;
+  /* Adjust the padding as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  /* Display in one line */
+  z-index: 1;
+}
+
+.form-container {
+  position: fixed;
+  top: 68px;
+  left: 55%;
+  transform: translateX(-50%);
+  width: 150%;
+  background-color: aqua;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+
+.main {
+  margin-top: 110px;
+  padding: 20px;
+  background-color: aqua;
+  /* overflow-y: scroll; */
+}
+
+.product-list-item {
+  margin-bottom: 10px;
+
+}
